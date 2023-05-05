@@ -33,14 +33,14 @@ function generatePassword() {
       combo = [...combo, ...uppercase]
     }
     if (confirmLowercase) {
-      combo = [ ...combo, ...lowercase]
-       } 
-    var capture = ""
-    for (var i = 0; i<enter; i++) {
-     var random = combo [Math.floor(Math.random()*combo.length)]
-     capture = random + capture
+      combo = [...combo, ...lowercase]
     }
-    return capture  
+    var capture = ""
+    for (var i = 0; i < enter; i++) {
+      var random = combo[Math.floor(Math.random() * combo.length)]
+      capture = random + capture
+    }
+    return capture
   };
 
 }
