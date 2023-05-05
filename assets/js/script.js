@@ -24,15 +24,15 @@ function generatePassword() {
     var confirmLowercase = confirm("Do you want Lowercase letters?");
     var combo = [];
     if (confirmNumber) {
-      combo = [...numbers]
+      combo = [...numbers] //creates a combo based off numbers variable
     }
-    if (confirmCharacter) {
+    if (confirmCharacter) { //uses combo to add characters variable 
       combo = [...combo, ...characters]
     }
-    if (confirmUppercase) {
+    if (confirmUppercase) { //uses combo to add uppercase variable 
       combo = [...combo, ...uppercase]
     }
-    if (confirmLowercase) {
+    if (confirmLowercase) { //uses combo to add lowercase variable 
       combo = [...combo, ...lowercase]
     }
     var capture = ""
@@ -40,11 +40,11 @@ function generatePassword() {
       var random = combo[Math.floor(Math.random() * combo.length)]
       capture = random + capture
     }
-    return capture
+    return capture 
   };
 
 }
-// Write password to the #password input
+// Writes password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");

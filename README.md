@@ -6,7 +6,7 @@ This week's Challenge required you to modify starter code and create an applicat
 
 # Issues Faced During Project
 1.  JavaScript is tough as there are a lot of different elements that make up the language and
-    I found my tutor to be extra helpful with bringing together a lot of the information what we 
+    I found my tutor and office hours to be extra helpful with bringing together a lot of the information what we 
     talked about in class
 
 # Screenshot
@@ -15,10 +15,10 @@ This week's Challenge required you to modify starter code and create an applicat
 
 
 # Link to Repo
-[https://github.com/JHeeebert/class-project-2]
+[https://github.com/JHeeebert/password-generator]
 
 # Link to Deployed Site
-[https://jheeebert.github.io/class-project-2/]
+[https://jheeebert.github.io/password-generator/]
 
 # Contributors
 Joshua Hebert
