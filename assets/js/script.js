@@ -35,12 +35,12 @@ function generatePassword() {
     if (confirmLowercase) { //uses combo to add lowercase variable 
       combo = [...combo, ...lowercase]
     }
-    var capture = ""
+    var capture = "" //captures string for password
     for (var i = 0; i < enter; i++) {
       var random = combo[Math.floor(Math.random() * combo.length)]
       capture = random + capture
     }
-    return capture 
+    return capture  // ends for loop
   };
 
 }
